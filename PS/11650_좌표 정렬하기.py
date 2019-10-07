@@ -6,5 +6,5 @@ a = [list(map(int, input().split())) for _ in range(n)]
 
 a.sort(key=lambda x: (x[0], x[1]))
 
-for x in a:
-    print(' '.join(map(str, x)))
+for pair in a:
+    print(' '.join(map(str, pair)))
