@@ -7,5 +7,5 @@ while True:
         break
 
     for case in combinations(S, 6):
-        print(' '.join(map(str, case)))
+        print(*case)
     print()
