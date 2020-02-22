@@ -2,10 +2,7 @@ a = input()
 
 
 def reverse_str(s):
-    ret = ''
-    for i in range(len(s)-1, -1, -1):
-        ret += s[i]
-    return ret
+    return s[::-1]
 
 
 print(reverse_str(a))
