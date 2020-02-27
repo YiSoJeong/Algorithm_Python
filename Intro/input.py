@@ -1,5 +1,4 @@
-n, m = map(int, input().split())
+import sys
+input = lambda: sys.stdin.readline().rstrip()
 
-a = [list(map(int, input().split())) for _ in range(n)]
-
-print(a)
+sys.stdin = open('input.txt', 'r')
