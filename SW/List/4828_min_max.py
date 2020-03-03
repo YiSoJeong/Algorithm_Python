@@ -22,7 +22,7 @@ def counting_sort(arr_len, arr):
     for i in range(1, len(count)):
         count[i] += count[i-1]
 
-    for i in range(arr_len-1, -1, -1):
+    for i in range(arr_len):
         sorted_arr[count[arr[i]]-1] = arr[i]
         count[arr[i]] -= 1
 
