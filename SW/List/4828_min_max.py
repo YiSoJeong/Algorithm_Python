@@ -1,3 +1,8 @@
+# 분류 : sort
+# 발상 : 가장 큰 수, 작은 수 -> 결국 정렬해야 알 수 있음
+# 변형 : 기본적인 형태로 주어짐
+# 조합 : x
+
 import sys
 sys.stdin = open('sample_input.txt', 'r')
 
