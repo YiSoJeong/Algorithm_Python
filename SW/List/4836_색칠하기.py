@@ -17,7 +17,7 @@ for t in range(1, T+1):
             for j in range(c1, c2+1):
                 if g[i][j] == 0:
                     g[i][j] = color
-                elif g[i][j] != color:
+                elif g[i][j] != color:  # 한번 센 부분은 다음에 세지 X
                     cnt += 1
                     g[i][j] = -1
                 elif g[i][j] < 0:
