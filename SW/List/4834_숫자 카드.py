@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 # 분류 : Brute force
 # 발상 : 입력받은 모든 수의 정보를 알아야 하니까

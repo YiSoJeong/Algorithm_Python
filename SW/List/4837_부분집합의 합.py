@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 # 분류 : Greedy
 # 발상 : 전체 부분집합 중에서 n개인 것 골라야 해서

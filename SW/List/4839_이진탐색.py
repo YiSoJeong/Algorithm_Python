@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 # 분류 : Binary Search
 # 발상 : 문제에 대놓고 이진탐색이라고 알려줌

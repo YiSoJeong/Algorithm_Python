@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 # 분류 : Greedy Algorithm
 # 발상 : 충전이 가능하면 충전 but 불가능 하더라도 직전 충전소에 들리면 가능할 수도 -> Greedy?
 # 조합 : 구현 -> 버스 이동시 조건 맞추기

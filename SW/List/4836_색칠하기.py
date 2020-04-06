@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 # 분류 : 구현
 # 발상 : 주어진 영역만큼 색칠해보면서 판단해야 해서

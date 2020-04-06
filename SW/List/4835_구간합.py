@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 # 분류 : Brute force
 # 발상 : 이웃한 M개의 합 -> 다 해봐야 되는거 아닌가..ㅇㅅㅇ

@@ -4,7 +4,7 @@
 # 조합 : x
 
 import sys
-sys.stdin = open('sample_input.txt', 'r')
+sys.stdin = open('../String/sample_input.txt', 'r')
 
 MAX_NUM = 1000000
 
