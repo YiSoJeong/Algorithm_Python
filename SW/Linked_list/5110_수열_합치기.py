@@ -20,5 +20,4 @@ for t in range(1, T+1):
                 break
             elif i == len(li)-1 and tmp[0] > li[i]:
                 li.extend(tmp)
-    print('#{} {}'.format(t, ' '.join(map(str, li[-1:-11:-1]))))  # 리스트 역순으로 출력하
-기
+    print('#{} {}'.format(t, ' '.join(map(str, li[-1:-11:-1]))))  # 리스트 역순으로 출력하기
