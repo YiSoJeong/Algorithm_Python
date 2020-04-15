@@ -1,8 +1,8 @@
 import sys
 sys.stdin = open('sample_input.txt', 'r')
 
-# 분류 : 팰린드
-# 발상 : 회문찾
+# 분류 : 팰린드롬
+# 발상 : 회문찾기
 # 변형 : 가로 세로 둘다 가능
 # 조합 : 2차원 배열
 
