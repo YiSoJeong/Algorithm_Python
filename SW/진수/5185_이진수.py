@@ -4,7 +4,8 @@ sys.stdin = open('sample_input.txt', 'r')
 # 분류 : 진수 변환
 # 발상 : 16진수 -> 2진수
 # 변형 :
-# 조합 : python bin함수 https://programmers.co.kr/learn/courses/4008/lessons/12733
+# 조합 : x진수 -> 10진수 : int(num, base=) https://programmers.co.kr/learn/courses/4008/lessons/12733
+#       10진수 -> 2, 8, 16진수 : bin(), oct(), hex()
 
 T = int(input())
 for t in range(1, T+1):
